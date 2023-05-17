@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(251, 7, 7);
+}
+.formulaire{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+input{
+    width: 70px;
+}
+form{
+    background-color: rgb(19, 143, 33);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.ajouter{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+table tr:first-child{
+    background-color: rgb(198, 43, 226);
+}
+table tr:nth-child(n+2){
+    background-color: rgb(253, 143, 0);
+}
+table{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    top: 50px;
+}
+table td {
+    border: 1px solid rgb(255, 234, 0) ;
+    height: 20px;
+    text-align: center;
+
+}
